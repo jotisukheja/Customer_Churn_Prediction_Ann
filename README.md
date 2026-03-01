@@ -1,8 +1,8 @@
 # Customer Churn Classification (ANN)
 
-This project presents a production-ready Customer Churn Prediction system built using an Artificial Neural Network (ANN) implemented in TensorFlow/Keras and deployed through Streamlit.
+This project presents a production-ready Customer Churn Prediction system built using an Artificial Neural Network (ANN) implemented in TensorFlow and deployed through Streamlit.
 
-The system predicts the probability of customer attrition based on demographic, financial, and engagement-related features. It includes end-to-end model development, preprocessing pipelines, serialized artifacts, and a fully interactive web application suitable for real-world deployment scenarios.
+The system predicts the probability of customer attrition based on demographic, financial, and engagement-related features. It includes end-to-end model development, preprocessing pipelines, serialized artifacts, and a fully interactive web application.
 
 ##  Live Demo
 [Churn Classifier](https://customerchurnpredictionann-4.streamlit.app/)
@@ -83,7 +83,7 @@ Saved artifacts:
 
 ### Model Architecture
 
-The model is a fully connected Artificial Neural Network implemented using TensorFlow/Keras.
+The model is a fully connected Artificial Neural Network implemented using TensorFlow.
 
 **Architecture Overview:**
 - Input layer (scaled and encoded features)
@@ -120,11 +120,7 @@ The application uses `@st.cache_resource` to optimize model loading performance.
 
 ## Installation & Local Setup
 
-#### Recommended Python Version
-
-- Python 3.11
-
----
+-  Recommended Python Version - Python 3.11
 
 ## **How to Run Locally**
 
